@@ -1,24 +1,204 @@
-<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><title>slickPrev | slick - にほんご。</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta property="og:title" content="slickPrev | slick - にほんご。"><meta property="og:url"><meta property="og:type" content="article"><link rel="icon" href="https://tr.you84815.space/slick/favicon.ico"><link rel="stylesheet" href="../css/main.css"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"><header><div class="icon"><a class="no-barba" href="https://tr.you84815.space/"><svg width="16" height="16"><rect width="16" height="16" fill="#e0e0e0"></rect></svg></a></div><div class="navi_toggle" onclick="toggleMenu()"><svg id="menu_close" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg id="menu_open" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></div><div class="title">slick - <a class="no-barba" href="https://tr.you84815.space/">にほんご。</a></div></header><div class="navi" id="navi"><ul class="menu"><li><a class="index" href="../index.html">Home</a></li><li><a class="introduction" href="../introduction.html">Introduction</a></li><li><a class="gettingStarted" href="../getting-started.html">Getting Started</a></li><li><a class="examples" href="../examples.html">Examples</a><ul class="hidden" id="navi_examples"><li><a href="../examples.html#single-item">単一表示</a></li><li><a href="../examples.html#multiple-items">複数表示</a></li><li><a href="../examples.html#responsive-display">レスポンシブ</a></li><li><a href="../examples.html#variable-width">可変幅</a></li><li><a href="../examples.html#adaptive-height">可変高</a></li><li><a href="../examples.html#data-attribute-settings">data属性による設定</a></li><li><a href="../examples.html#center-mode">センターモード</a></li><li><a href="../examples.html#lazy-loading">遅延読み込み</a></li><li><a href="../examples.html#autoplay">自動再生</a></li><li><a href="../examples.html#fade">フェード</a></li><li><a href="../examples.html#add-and-remove">追加と削除</a></li><li><a href="../examples.html#filtering">フィルタリング</a></li><li><a href="../examples.html#destroy">slickの削除</a></li><li><a href="../examples.html#slider-syncing">スライダの同期</a></li><li><a href="../examples.html#right-to-left">右から左へ</a></li></ul></li><li><span onclick="toggleNaviSubMenu('navi_settings')">Settings</span><ul class="hidden" id="navi_settings"><li><a href="../settings/accessibility.html">accessibility</a></li><li><a href="../settings/adaptiveHeight.html">adaptiveHeight</a></li><li><a href="../settings/appendArrows.html">appendArrows</a></li><li><a href="../settings/appendDots.html">appendDots</a></li><li><a href="../settings/arrows.html">arrows</a></li><li><a href="../settings/asNavFor.html">asNavFor</a></li><li><a href="../settings/autoplay.html">autoplay</a></li><li><a href="../settings/autoplaySpeed.html">autoplaySpeed</a></li><li><a href="../settings/centerMode.html">centerMode</a></li><li><a href="../settings/centerPadding.html">centerPadding</a></li><li><a href="../settings/cssEase.html">cssEase</a></li><li><a href="../settings/customPaging.html">customPaging</a></li><li><a href="../settings/dots.html">dots</a></li><li><a href="../settings/dotsClass.html">dotsClass</a></li><li><a href="../settings/draggable.html">draggable</a></li><li><a href="../settings/easing.html">easing</a></li><li><a href="../settings/edgeFriction.html">edgeFriction</a></li><li><a href="../settings/fade.html">fade</a></li><li><a href="../settings/focusOnSelect.html">focusOnSelect</a></li><li><a href="../settings/focusOnChange.html">focusOnChange</a></li><li><a href="../settings/infinite.html">infinite</a></li><li><a href="../settings/initialSlide.html">initialSlide</a></li><li><a href="../settings/lazyLoad.html">lazyLoad</a></li><li><a href="../settings/mobileFirst.html">mobileFirst</a></li><li><a href="../settings/nextArrow.html">nextArrow</a></li><li><a href="../settings/pauseOnDotsHover.html">pauseOnDotsHover</a></li><li><a href="../settings/pauseOnFocus.html">pauseOnFocus</a></li><li><a href="../settings/pauseOnHover.html">pauseOnHover</a></li><li><a href="../settings/prevArrow.html">prevArrow</a></li><li><a href="../settings/respondTo.html">respondTo</a></li><li><a href="../settings/responsive.html">responsive</a></li><li><a href="../settings/rows.html">rows</a></li><li><a href="../settings/rtl.html">rtl</a></li><li><a href="../settings/slide.html">slide</a></li><li><a href="../settings/slidesPerRow.html">slidesPerRow</a></li><li><a href="../settings/slidesToScroll.html">slidesToScroll</a></li><li><a href="../settings/slidesToShow.html">slidesToShow</a></li><li><a href="../settings/speed.html">speed</a></li><li><a href="../settings/swipe.html">swipe</a></li><li><a href="../settings/swipeToSlide.html">swipeToSlide</a></li><li><a href="../settings/touchMove.html">touchMove</a></li><li><a href="../settings/touchThreshold.html">touchThreshold</a></li><li><a href="../settings/useCSS.html">useCSS</a></li><li><a href="../settings/useTransform.html">useTransform</a></li><li><a href="../settings/variableWidth.html">variableWidth</a></li><li><a href="../settings/vertical.html">vertical</a></li><li><a href="../settings/verticalSwiping.html">verticalSwiping</a></li><li><a href="../settings/waitForAnimate.html">waitForAnimate</a></li><li><a href="../settings/zIndex.html">zIndex</a></li></ul></li><li><a class="events" href="../events.html">Events</a><ul class="hidden" id="navi_events"><li><a href="../events/afterChange.html">afterChange</a></li><li><a href="../events/beforeChange.html">beforeChange</a></li><li><a href="../events/breakpoint.html">breakpoint</a></li><li><a href="../events/destroy.html">destroy</a></li><li><a href="../events/edge.html">edge</a></li><li><a href="../events/init.html">init</a></li><li><a href="../events/lazyLoaded.html">lazyLoaded</a></li><li><a href="../events/lazyLoadError.html">lazyLoadError</a></li><li><a href="../events/reInit.html">reInit</a></li><li><a href="../events/setPosition.html">setPosition</a></li><li><a href="../events/swipe.html">swipe</a></li></ul></li><li><a class="methods" href="../methods.html">Methods</a><ul id="navi_methods"><li><a href="../methods/slick.html">slick</a></li><li><a href="../methods/unslick.html">unslick</a></li><li><a href="../methods/slickNext.html">slickNext</a></li><li><a class="active" href="../methods/slickPrev.html">slickPrev</a></li><li><a href="../methods/slickPause.html">slickPause</a></li><li><a href="../methods/slickPlay.html">slickPlay</a></li><li><a href="../methods/slickGoTo.html">slickGoTo</a></li><li><a href="../methods/slickCurrentSlide.html">slickCurrentSlide</a></li><li><a href="../methods/slickAdd.html">slickAdd</a></li><li><a href="../methods/slickRemove.html">slickRemove</a></li><li><a href="../methods/slickFilter.html">slickFilter</a></li><li><a href="../methods/slickUnfilter.html">slickUnfilter</a></li><li><a href="../methods/slickGetOption.html">slickGetOption</a></li><li><a href="../methods/slickSetOption.html">slickSetOption</a></li></ul></li><li><a class="sassVariables" href="../sass-variables.html">Sass Variables</a></li></ul></div><div id="content"><div id="main"><div id="barba-wrapper"><div class="barba-container"><h1>slickPrev</h1><div id="update_date"><span>作成日: 2018.09.25
-</span></div><p>スライドを前のスライドに移動します。</p><h4>引数</h4><ul><li>なし</li></ul><pre><code>$(<span class="hljs-string">'.slider'</span>).slick(<span class="hljs-string">'slickPrev'</span>);</code></pre><br><h3>デモ</h3><p>"前へ"ボタンを押すと、スライドを次のスライドに移動します。</p><div class="slider"><p>1</p><p>2</p><p>3</p></div><div class="buttons"><div class="button js-method">前へ</div></div><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>slickPrev | slick - にほんご。</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:title" content="slickPrev | slick - にほんご。">
+    <meta property="og:url">
+    <meta property="og:type" content="article">
+    <link rel="icon" href="https://tr.you84815.space/slick/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link id="theme_style" rel="stylesheet" type="text/css" href="">
+    <script id="srcTheme" src="../js/toggleTheme.js" data-dir="slick"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-106478577-1', 'auto');
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div class="icon"><a class="no-barba" href="https://tr.you84815.space/">
+            <svg width="16" height="16">
+              <rect width="16" height="16" fill="#e0e0e0"></rect>
+            </svg></a></div>
+        <div class="navi_toggle" onclick="toggleMenu()">
+          <svg id="menu_close" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+            <path d="M0 0h24v24H0z" fill="none"></path>
+          </svg>
+          <svg id="menu_open" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+          </svg>
+        </div>
+        <div class="title">slick - <a class="no-barba" href="https://tr.you84815.space/">にほんご。</a></div><span id="toggleTheme">
+          <svg role="img" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"></path>
+          </svg></span>
+      </header>
+      <div class="navi" id="navi">
+        <ul class="menu">
+          <li><a class="index" href="../index.html">Home</a></li>
+          <li><a class="introduction" href="../introduction.html">Introduction</a></li>
+          <li><a class="gettingStarted" href="../getting-started.html">Getting Started</a></li>
+          <li><a class="examples" href="../examples.html">Examples</a>
+            <ul class="hidden" id="navi_examples">
+              <li><a href="../examples.html#single-item">単一表示</a></li>
+              <li><a href="../examples.html#multiple-items">複数表示</a></li>
+              <li><a href="../examples.html#responsive-display">レスポンシブ</a></li>
+              <li><a href="../examples.html#variable-width">可変幅</a></li>
+              <li><a href="../examples.html#adaptive-height">可変高</a></li>
+              <li><a href="../examples.html#data-attribute-settings">data属性による設定</a></li>
+              <li><a href="../examples.html#center-mode">センターモード</a></li>
+              <li><a href="../examples.html#lazy-loading">遅延読み込み</a></li>
+              <li><a href="../examples.html#autoplay">自動再生</a></li>
+              <li><a href="../examples.html#fade">フェード</a></li>
+              <li><a href="../examples.html#add-and-remove">追加と削除</a></li>
+              <li><a href="../examples.html#filtering">フィルタリング</a></li>
+              <li><a href="../examples.html#destroy">slickの削除</a></li>
+              <li><a href="../examples.html#slider-syncing">スライダの同期</a></li>
+              <li><a href="../examples.html#right-to-left">右から左へ</a></li>
+            </ul>
+          </li>
+          <li><span onclick="toggleNaviSubMenu('navi_settings')">Settings</span>
+            <ul class="hidden" id="navi_settings">
+              <li><a href="../settings/accessibility.html">accessibility</a></li>
+              <li><a href="../settings/adaptiveHeight.html">adaptiveHeight</a></li>
+              <li><a href="../settings/appendArrows.html">appendArrows</a></li>
+              <li><a href="../settings/appendDots.html">appendDots</a></li>
+              <li><a href="../settings/arrows.html">arrows</a></li>
+              <li><a href="../settings/asNavFor.html">asNavFor</a></li>
+              <li><a href="../settings/autoplay.html">autoplay</a></li>
+              <li><a href="../settings/autoplaySpeed.html">autoplaySpeed</a></li>
+              <li><a href="../settings/centerMode.html">centerMode</a></li>
+              <li><a href="../settings/centerPadding.html">centerPadding</a></li>
+              <li><a href="../settings/cssEase.html">cssEase</a></li>
+              <li><a href="../settings/customPaging.html">customPaging</a></li>
+              <li><a href="../settings/dots.html">dots</a></li>
+              <li><a href="../settings/dotsClass.html">dotsClass</a></li>
+              <li><a href="../settings/draggable.html">draggable</a></li>
+              <li><a href="../settings/easing.html">easing</a></li>
+              <li><a href="../settings/edgeFriction.html">edgeFriction</a></li>
+              <li><a href="../settings/fade.html">fade</a></li>
+              <li><a href="../settings/focusOnSelect.html">focusOnSelect</a></li>
+              <li><a href="../settings/focusOnChange.html">focusOnChange</a></li>
+              <li><a href="../settings/infinite.html">infinite</a></li>
+              <li><a href="../settings/initialSlide.html">initialSlide</a></li>
+              <li><a href="../settings/lazyLoad.html">lazyLoad</a></li>
+              <li><a href="../settings/mobileFirst.html">mobileFirst</a></li>
+              <li><a href="../settings/nextArrow.html">nextArrow</a></li>
+              <li><a href="../settings/pauseOnDotsHover.html">pauseOnDotsHover</a></li>
+              <li><a href="../settings/pauseOnFocus.html">pauseOnFocus</a></li>
+              <li><a href="../settings/pauseOnHover.html">pauseOnHover</a></li>
+              <li><a href="../settings/prevArrow.html">prevArrow</a></li>
+              <li><a href="../settings/respondTo.html">respondTo</a></li>
+              <li><a href="../settings/responsive.html">responsive</a></li>
+              <li><a href="../settings/rows.html">rows</a></li>
+              <li><a href="../settings/rtl.html">rtl</a></li>
+              <li><a href="../settings/slide.html">slide</a></li>
+              <li><a href="../settings/slidesPerRow.html">slidesPerRow</a></li>
+              <li><a href="../settings/slidesToScroll.html">slidesToScroll</a></li>
+              <li><a href="../settings/slidesToShow.html">slidesToShow</a></li>
+              <li><a href="../settings/speed.html">speed</a></li>
+              <li><a href="../settings/swipe.html">swipe</a></li>
+              <li><a href="../settings/swipeToSlide.html">swipeToSlide</a></li>
+              <li><a href="../settings/touchMove.html">touchMove</a></li>
+              <li><a href="../settings/touchThreshold.html">touchThreshold</a></li>
+              <li><a href="../settings/useCSS.html">useCSS</a></li>
+              <li><a href="../settings/useTransform.html">useTransform</a></li>
+              <li><a href="../settings/variableWidth.html">variableWidth</a></li>
+              <li><a href="../settings/vertical.html">vertical</a></li>
+              <li><a href="../settings/verticalSwiping.html">verticalSwiping</a></li>
+              <li><a href="../settings/waitForAnimate.html">waitForAnimate</a></li>
+              <li><a href="../settings/zIndex.html">zIndex</a></li>
+            </ul>
+          </li>
+          <li><a class="events" href="../events.html">Events</a>
+            <ul class="hidden" id="navi_events">
+              <li><a href="../events/afterChange.html">afterChange</a></li>
+              <li><a href="../events/beforeChange.html">beforeChange</a></li>
+              <li><a href="../events/breakpoint.html">breakpoint</a></li>
+              <li><a href="../events/destroy.html">destroy</a></li>
+              <li><a href="../events/edge.html">edge</a></li>
+              <li><a href="../events/init.html">init</a></li>
+              <li><a href="../events/lazyLoaded.html">lazyLoaded</a></li>
+              <li><a href="../events/lazyLoadError.html">lazyLoadError</a></li>
+              <li><a href="../events/reInit.html">reInit</a></li>
+              <li><a href="../events/setPosition.html">setPosition</a></li>
+              <li><a href="../events/swipe.html">swipe</a></li>
+            </ul>
+          </li>
+          <li><a class="methods" href="../methods.html">Methods</a>
+            <ul id="navi_methods">
+              <li><a href="../methods/slick.html">slick</a></li>
+              <li><a href="../methods/unslick.html">unslick</a></li>
+              <li><a href="../methods/slickNext.html">slickNext</a></li>
+              <li><a class="active" href="../methods/slickPrev.html">slickPrev</a></li>
+              <li><a href="../methods/slickPause.html">slickPause</a></li>
+              <li><a href="../methods/slickPlay.html">slickPlay</a></li>
+              <li><a href="../methods/slickGoTo.html">slickGoTo</a></li>
+              <li><a href="../methods/slickCurrentSlide.html">slickCurrentSlide</a></li>
+              <li><a href="../methods/slickAdd.html">slickAdd</a></li>
+              <li><a href="../methods/slickRemove.html">slickRemove</a></li>
+              <li><a href="../methods/slickFilter.html">slickFilter</a></li>
+              <li><a href="../methods/slickUnfilter.html">slickUnfilter</a></li>
+              <li><a href="../methods/slickGetOption.html">slickGetOption</a></li>
+              <li><a href="../methods/slickSetOption.html">slickSetOption</a></li>
+            </ul>
+          </li>
+          <li><a class="sassVariables" href="../sass-variables.html">Sass Variables</a></li>
+        </ul>
+      </div>
+      <div id="content">
+        <div id="main">
+          <div id="barba-wrapper">
+            <div class="barba-container">
+              <h1>slickPrev</h1>
+              <div id="update_date"><span>更新日: 2019.12.19
+</span>
+              </div>
+              <p>スライドを前のスライドに移動します。</p>
+              <h4>引数</h4>
+              <ul>
+                <li>なし</li>
+              </ul>
+              <pre><code>$(<span class="hljs-string">'.slider'</span>).slick(<span class="hljs-string">'slickPrev'</span>);</code></pre><br>
+              <h3>デモ</h3>
+              <p>"前へ"ボタンを押すと、スライドを次のスライドに移動します。</p>
+              <div class="slider">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+              </div>
+              <div class="buttons">
+                <div class="button js-method">前へ</div>
+              </div>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.slider'</span>).slick();
 });
 
 $(<span class="hljs-string">'.js-method'</span>).on(<span class="hljs-string">'click'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
   $(<span class="hljs-string">'.slider'</span>).slick(<span class="hljs-string">'slickPrev'</span>);
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"slider"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"slider"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"buttons"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"button js-method"</span>&gt;</span>前へ<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -54,54 +234,57 @@ $(<span class="hljs-string">'.js-method'</span>).on(<span class="hljs-string">'c
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#fff</span>;
   <span class="hljs-attribute">transition</span>: all <span class="hljs-number">300ms</span> ease;
 }
-</code></pre><style>.slick-prev:before,
-.slick-next:before {
-  color: #000 !important;
-}
-
-.slider p {
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 100px;
-  color: #666;
-  margin: 10px;
-  text-align: center;
-  background-color: #e0e0e0;
-
-  text-shadow: none;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-}
-
-.buttons .button {
-  margin: 8px;
-  border: 1px solid #000;
-  color: #000;
-  padding: 8px;
-  text-align: center;
-  width: 8em;
-  transition: all 300ms ease;
-}
-
-.buttons .button:hover {
-  cursor: pointer;
-  background-color: #000;
-  color: #fff;
-  transition: all 300ms ease;
-}
-</style><script class="load">createObj = function() {
-  if (document.querySelector('.slider')) {
-    $(document).ready(function(){
-      $('.slider').slick();
-    });
-
-    $('.js-method').on('click', function() {
-      $('.slider').slick('slickPrev');
-    });
-  }
-
-};</script><br><div class="license"><p>&copy; 2017
- Ken Wheeler Licensed under the <a href="https://github.com/kenwheeler/slick/blob/master/LICENSE">MIT license</a></p><p>このコンテンツはKen Wheeler(kenwheeler)による<a href="http://kenwheeler.github.io/slick/">slickドキュメント</a>を翻訳/改変したものです。</p></div></div></div></div></div><footer><span> &copy; <span id="copy_year">2017</span> tobijibu</span></footer></div><noscript id="deferred-styles"><link href="../css/lazy.css" rel="stylesheet"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"></noscript><script src="../js/main.js" defer></script><script src="//code.jquery.com/jquery-1.11.0.min.js"></script><script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script><script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script><div id="src" hidden></div></body></html>
+</code></pre>
+              <style>
+                .slider p {
+                  font-size: 2rem;
+                  font-weight: bold;
+                  line-height: 100px;
+                  color: #666;
+                  margin: 10px;
+                  text-align: center;
+                  background-color: #e0e0e0;
+                
+                  text-shadow: none;
+                }
+                
+              </style>
+              <script class="load">
+                createObj = function() {
+                  if (document.querySelector('.slider')) {
+                    $(document).ready(function(){
+                      $('.slider').slick();
+                    });
+                
+                    $('.js-method').on('click', function() {
+                      $('.slider').slick('slickPrev');
+                    });
+                  }
+                
+                };
+              </script><br>
+              <div class="license">
+                <p>
+                  &copy; 2017
+                   Ken Wheeler Licensed under the <a href="https://github.com/kenwheeler/slick/blob/master/LICENSE">MIT license</a>
+                </p>
+                <p>このコンテンツはKen Wheeler(kenwheeler)による<a href="http://kenwheeler.github.io/slick/">slickドキュメント</a>を翻訳/改変したものです。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer><span>&copy; <span id="copy_year">2017</span> tobijibu</span></footer>
+    </div>
+    <noscript id="deferred-styles">
+      <link href="../css/lazy.css" rel="stylesheet">
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    </noscript>
+    <script src="../js/main.js" defer></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <div id="src" hidden></div>
+  </body>
+</html>

@@ -1,11 +1,182 @@
-<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><title>Examples | slick - にほんご。</title><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta property="og:title" content="Examples | slick - にほんご。"><meta property="og:url"><meta property="og:type" content="article"><link rel="icon" href="https://tr.you84815.space/slick/favicon.ico"><link rel="stylesheet" href="./css/main.css"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"><header><div class="icon"><a class="no-barba" href="https://tr.you84815.space/"><svg width="16" height="16"><rect width="16" height="16" fill="#e0e0e0"></rect></svg></a></div><div class="navi_toggle" onclick="toggleMenu()"><svg id="menu_close" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><svg id="menu_open" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></div><div class="title">slick - <a class="no-barba" href="https://tr.you84815.space/">にほんご。</a></div></header><div class="navi" id="navi"><ul class="menu"><li><a class="index" href="./index.html">Home</a></li><li><a class="introduction" href="./introduction.html">Introduction</a></li><li><a class="gettingStarted" href="./getting-started.html">Getting Started</a></li><li><a class="examples active" href="./examples.html">Examples</a><ul id="navi_examples"><li><a href="./examples.html#single-item">単一表示</a></li><li><a href="./examples.html#multiple-items">複数表示</a></li><li><a href="./examples.html#responsive-display">レスポンシブ</a></li><li><a href="./examples.html#variable-width">可変幅</a></li><li><a href="./examples.html#adaptive-height">可変高</a></li><li><a href="./examples.html#data-attribute-settings">data属性による設定</a></li><li><a href="./examples.html#center-mode">センターモード</a></li><li><a href="./examples.html#lazy-loading">遅延読み込み</a></li><li><a href="./examples.html#autoplay">自動再生</a></li><li><a href="./examples.html#fade">フェード</a></li><li><a href="./examples.html#add-and-remove">追加と削除</a></li><li><a href="./examples.html#filtering">フィルタリング</a></li><li><a href="./examples.html#destroy">slickの削除</a></li><li><a href="./examples.html#slider-syncing">スライダの同期</a></li><li><a href="./examples.html#right-to-left">右から左へ</a></li></ul></li><li><span onclick="toggleNaviSubMenu('navi_settings')">Settings</span><ul class="hidden" id="navi_settings"><li><a href="./settings/accessibility.html">accessibility</a></li><li><a href="./settings/adaptiveHeight.html">adaptiveHeight</a></li><li><a href="./settings/appendArrows.html">appendArrows</a></li><li><a href="./settings/appendDots.html">appendDots</a></li><li><a href="./settings/arrows.html">arrows</a></li><li><a href="./settings/asNavFor.html">asNavFor</a></li><li><a href="./settings/autoplay.html">autoplay</a></li><li><a href="./settings/autoplaySpeed.html">autoplaySpeed</a></li><li><a href="./settings/centerMode.html">centerMode</a></li><li><a href="./settings/centerPadding.html">centerPadding</a></li><li><a href="./settings/cssEase.html">cssEase</a></li><li><a href="./settings/customPaging.html">customPaging</a></li><li><a href="./settings/dots.html">dots</a></li><li><a href="./settings/dotsClass.html">dotsClass</a></li><li><a href="./settings/draggable.html">draggable</a></li><li><a href="./settings/easing.html">easing</a></li><li><a href="./settings/edgeFriction.html">edgeFriction</a></li><li><a href="./settings/fade.html">fade</a></li><li><a href="./settings/focusOnSelect.html">focusOnSelect</a></li><li><a href="./settings/focusOnChange.html">focusOnChange</a></li><li><a href="./settings/infinite.html">infinite</a></li><li><a href="./settings/initialSlide.html">initialSlide</a></li><li><a href="./settings/lazyLoad.html">lazyLoad</a></li><li><a href="./settings/mobileFirst.html">mobileFirst</a></li><li><a href="./settings/nextArrow.html">nextArrow</a></li><li><a href="./settings/pauseOnDotsHover.html">pauseOnDotsHover</a></li><li><a href="./settings/pauseOnFocus.html">pauseOnFocus</a></li><li><a href="./settings/pauseOnHover.html">pauseOnHover</a></li><li><a href="./settings/prevArrow.html">prevArrow</a></li><li><a href="./settings/respondTo.html">respondTo</a></li><li><a href="./settings/responsive.html">responsive</a></li><li><a href="./settings/rows.html">rows</a></li><li><a href="./settings/rtl.html">rtl</a></li><li><a href="./settings/slide.html">slide</a></li><li><a href="./settings/slidesPerRow.html">slidesPerRow</a></li><li><a href="./settings/slidesToScroll.html">slidesToScroll</a></li><li><a href="./settings/slidesToShow.html">slidesToShow</a></li><li><a href="./settings/speed.html">speed</a></li><li><a href="./settings/swipe.html">swipe</a></li><li><a href="./settings/swipeToSlide.html">swipeToSlide</a></li><li><a href="./settings/touchMove.html">touchMove</a></li><li><a href="./settings/touchThreshold.html">touchThreshold</a></li><li><a href="./settings/useCSS.html">useCSS</a></li><li><a href="./settings/useTransform.html">useTransform</a></li><li><a href="./settings/variableWidth.html">variableWidth</a></li><li><a href="./settings/vertical.html">vertical</a></li><li><a href="./settings/verticalSwiping.html">verticalSwiping</a></li><li><a href="./settings/waitForAnimate.html">waitForAnimate</a></li><li><a href="./settings/zIndex.html">zIndex</a></li></ul></li><li><a class="events" href="./events.html">Events</a><ul class="hidden" id="navi_events"><li><a href="./events/afterChange.html">afterChange</a></li><li><a href="./events/beforeChange.html">beforeChange</a></li><li><a href="./events/breakpoint.html">breakpoint</a></li><li><a href="./events/destroy.html">destroy</a></li><li><a href="./events/edge.html">edge</a></li><li><a href="./events/init.html">init</a></li><li><a href="./events/lazyLoaded.html">lazyLoaded</a></li><li><a href="./events/lazyLoadError.html">lazyLoadError</a></li><li><a href="./events/reInit.html">reInit</a></li><li><a href="./events/setPosition.html">setPosition</a></li><li><a href="./events/swipe.html">swipe</a></li></ul></li><li><a class="methods" href="./methods.html">Methods</a><ul class="hidden" id="navi_methods"><li><a href="./methods/slick.html">slick</a></li><li><a href="./methods/unslick.html">unslick</a></li><li><a href="./methods/slickNext.html">slickNext</a></li><li><a href="./methods/slickPrev.html">slickPrev</a></li><li><a href="./methods/slickPause.html">slickPause</a></li><li><a href="./methods/slickPlay.html">slickPlay</a></li><li><a href="./methods/slickGoTo.html">slickGoTo</a></li><li><a href="./methods/slickCurrentSlide.html">slickCurrentSlide</a></li><li><a href="./methods/slickAdd.html">slickAdd</a></li><li><a href="./methods/slickRemove.html">slickRemove</a></li><li><a href="./methods/slickFilter.html">slickFilter</a></li><li><a href="./methods/slickUnfilter.html">slickUnfilter</a></li><li><a href="./methods/slickGetOption.html">slickGetOption</a></li><li><a href="./methods/slickSetOption.html">slickSetOption</a></li></ul></li><li><a class="sassVariables" href="./sass-variables.html">Sass Variables</a></li></ul></div><div id="content"><div id="main"><div id="barba-wrapper"><div class="barba-container"><h1>Examples</h1><div id="update_date"><span>更新日: 2018.09.20
-</span></div><h2 id="single-item">単一表示</h2><div class="single-item"><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p></div><pre><code>$(<span class="hljs-string">'.single-item'</span>).slick();
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Examples | slick - にほんご。</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:title" content="Examples | slick - にほんご。">
+    <meta property="og:url">
+    <meta property="og:type" content="article">
+    <link rel="icon" href="https://tr.you84815.space/slick/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link id="theme_style" rel="stylesheet" type="text/css" href="">
+    <script id="srcTheme" src="./js/toggleTheme.js" data-dir="slick"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-106478577-1', 'auto');
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div class="icon"><a class="no-barba" href="https://tr.you84815.space/">
+            <svg width="16" height="16">
+              <rect width="16" height="16" fill="#e0e0e0"></rect>
+            </svg></a></div>
+        <div class="navi_toggle" onclick="toggleMenu()">
+          <svg id="menu_close" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+            <path d="M0 0h24v24H0z" fill="none"></path>
+          </svg>
+          <svg id="menu_open" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+          </svg>
+        </div>
+        <div class="title">slick - <a class="no-barba" href="https://tr.you84815.space/">にほんご。</a></div><span id="toggleTheme">
+          <svg role="img" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"></path>
+          </svg></span>
+      </header>
+      <div class="navi" id="navi">
+        <ul class="menu">
+          <li><a class="index" href="./index.html">Home</a></li>
+          <li><a class="introduction" href="./introduction.html">Introduction</a></li>
+          <li><a class="gettingStarted" href="./getting-started.html">Getting Started</a></li>
+          <li><a class="examples active" href="./examples.html">Examples</a>
+            <ul id="navi_examples">
+              <li><a href="./examples.html#single-item">単一表示</a></li>
+              <li><a href="./examples.html#multiple-items">複数表示</a></li>
+              <li><a href="./examples.html#responsive-display">レスポンシブ</a></li>
+              <li><a href="./examples.html#variable-width">可変幅</a></li>
+              <li><a href="./examples.html#adaptive-height">可変高</a></li>
+              <li><a href="./examples.html#data-attribute-settings">data属性による設定</a></li>
+              <li><a href="./examples.html#center-mode">センターモード</a></li>
+              <li><a href="./examples.html#lazy-loading">遅延読み込み</a></li>
+              <li><a href="./examples.html#autoplay">自動再生</a></li>
+              <li><a href="./examples.html#fade">フェード</a></li>
+              <li><a href="./examples.html#add-and-remove">追加と削除</a></li>
+              <li><a href="./examples.html#filtering">フィルタリング</a></li>
+              <li><a href="./examples.html#destroy">slickの削除</a></li>
+              <li><a href="./examples.html#slider-syncing">スライダの同期</a></li>
+              <li><a href="./examples.html#right-to-left">右から左へ</a></li>
+            </ul>
+          </li>
+          <li><span onclick="toggleNaviSubMenu('navi_settings')">Settings</span>
+            <ul class="hidden" id="navi_settings">
+              <li><a href="./settings/accessibility.html">accessibility</a></li>
+              <li><a href="./settings/adaptiveHeight.html">adaptiveHeight</a></li>
+              <li><a href="./settings/appendArrows.html">appendArrows</a></li>
+              <li><a href="./settings/appendDots.html">appendDots</a></li>
+              <li><a href="./settings/arrows.html">arrows</a></li>
+              <li><a href="./settings/asNavFor.html">asNavFor</a></li>
+              <li><a href="./settings/autoplay.html">autoplay</a></li>
+              <li><a href="./settings/autoplaySpeed.html">autoplaySpeed</a></li>
+              <li><a href="./settings/centerMode.html">centerMode</a></li>
+              <li><a href="./settings/centerPadding.html">centerPadding</a></li>
+              <li><a href="./settings/cssEase.html">cssEase</a></li>
+              <li><a href="./settings/customPaging.html">customPaging</a></li>
+              <li><a href="./settings/dots.html">dots</a></li>
+              <li><a href="./settings/dotsClass.html">dotsClass</a></li>
+              <li><a href="./settings/draggable.html">draggable</a></li>
+              <li><a href="./settings/easing.html">easing</a></li>
+              <li><a href="./settings/edgeFriction.html">edgeFriction</a></li>
+              <li><a href="./settings/fade.html">fade</a></li>
+              <li><a href="./settings/focusOnSelect.html">focusOnSelect</a></li>
+              <li><a href="./settings/focusOnChange.html">focusOnChange</a></li>
+              <li><a href="./settings/infinite.html">infinite</a></li>
+              <li><a href="./settings/initialSlide.html">initialSlide</a></li>
+              <li><a href="./settings/lazyLoad.html">lazyLoad</a></li>
+              <li><a href="./settings/mobileFirst.html">mobileFirst</a></li>
+              <li><a href="./settings/nextArrow.html">nextArrow</a></li>
+              <li><a href="./settings/pauseOnDotsHover.html">pauseOnDotsHover</a></li>
+              <li><a href="./settings/pauseOnFocus.html">pauseOnFocus</a></li>
+              <li><a href="./settings/pauseOnHover.html">pauseOnHover</a></li>
+              <li><a href="./settings/prevArrow.html">prevArrow</a></li>
+              <li><a href="./settings/respondTo.html">respondTo</a></li>
+              <li><a href="./settings/responsive.html">responsive</a></li>
+              <li><a href="./settings/rows.html">rows</a></li>
+              <li><a href="./settings/rtl.html">rtl</a></li>
+              <li><a href="./settings/slide.html">slide</a></li>
+              <li><a href="./settings/slidesPerRow.html">slidesPerRow</a></li>
+              <li><a href="./settings/slidesToScroll.html">slidesToScroll</a></li>
+              <li><a href="./settings/slidesToShow.html">slidesToShow</a></li>
+              <li><a href="./settings/speed.html">speed</a></li>
+              <li><a href="./settings/swipe.html">swipe</a></li>
+              <li><a href="./settings/swipeToSlide.html">swipeToSlide</a></li>
+              <li><a href="./settings/touchMove.html">touchMove</a></li>
+              <li><a href="./settings/touchThreshold.html">touchThreshold</a></li>
+              <li><a href="./settings/useCSS.html">useCSS</a></li>
+              <li><a href="./settings/useTransform.html">useTransform</a></li>
+              <li><a href="./settings/variableWidth.html">variableWidth</a></li>
+              <li><a href="./settings/vertical.html">vertical</a></li>
+              <li><a href="./settings/verticalSwiping.html">verticalSwiping</a></li>
+              <li><a href="./settings/waitForAnimate.html">waitForAnimate</a></li>
+              <li><a href="./settings/zIndex.html">zIndex</a></li>
+            </ul>
+          </li>
+          <li><a class="events" href="./events.html">Events</a>
+            <ul class="hidden" id="navi_events">
+              <li><a href="./events/afterChange.html">afterChange</a></li>
+              <li><a href="./events/beforeChange.html">beforeChange</a></li>
+              <li><a href="./events/breakpoint.html">breakpoint</a></li>
+              <li><a href="./events/destroy.html">destroy</a></li>
+              <li><a href="./events/edge.html">edge</a></li>
+              <li><a href="./events/init.html">init</a></li>
+              <li><a href="./events/lazyLoaded.html">lazyLoaded</a></li>
+              <li><a href="./events/lazyLoadError.html">lazyLoadError</a></li>
+              <li><a href="./events/reInit.html">reInit</a></li>
+              <li><a href="./events/setPosition.html">setPosition</a></li>
+              <li><a href="./events/swipe.html">swipe</a></li>
+            </ul>
+          </li>
+          <li><a class="methods" href="./methods.html">Methods</a>
+            <ul class="hidden" id="navi_methods">
+              <li><a href="./methods/slick.html">slick</a></li>
+              <li><a href="./methods/unslick.html">unslick</a></li>
+              <li><a href="./methods/slickNext.html">slickNext</a></li>
+              <li><a href="./methods/slickPrev.html">slickPrev</a></li>
+              <li><a href="./methods/slickPause.html">slickPause</a></li>
+              <li><a href="./methods/slickPlay.html">slickPlay</a></li>
+              <li><a href="./methods/slickGoTo.html">slickGoTo</a></li>
+              <li><a href="./methods/slickCurrentSlide.html">slickCurrentSlide</a></li>
+              <li><a href="./methods/slickAdd.html">slickAdd</a></li>
+              <li><a href="./methods/slickRemove.html">slickRemove</a></li>
+              <li><a href="./methods/slickFilter.html">slickFilter</a></li>
+              <li><a href="./methods/slickUnfilter.html">slickUnfilter</a></li>
+              <li><a href="./methods/slickGetOption.html">slickGetOption</a></li>
+              <li><a href="./methods/slickSetOption.html">slickSetOption</a></li>
+            </ul>
+          </li>
+          <li><a class="sassVariables" href="./sass-variables.html">Sass Variables</a></li>
+        </ul>
+      </div>
+      <div id="content">
+        <div id="main">
+          <div id="barba-wrapper">
+            <div class="barba-container">
+              <h1>Examples</h1>
+              <div id="update_date"><span>更新日: 2019.12.19
+</span>
+              </div>
+              <h2 id="single-item">単一表示</h2>
+              <div class="single-item">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.single-item'</span>).slick();
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.single-item'</span>).slick({
     <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
@@ -14,14 +185,18 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
     <span class="hljs-attr">slidesToScroll</span>: <span class="hljs-number">1</span>
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"single-item"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"single-item"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -34,12 +209,28 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
   <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
   <span class="hljs-attribute">text-align</span>: center;
   <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e0e0e0</span>;
-}</code></pre><br><h2 id="multiple-items">複数表示</h2><div class="multiple-items"><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p><p>9</p></div><pre><code>$(<span class="hljs-string">'.multiple-items'</span>).slick({
+}</code></pre><br>
+              <h2 id="multiple-items">複数表示</h2>
+              <div class="multiple-items">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+                <p>7</p>
+                <p>8</p>
+                <p>9</p>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.multiple-items'</span>).slick({
   <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">slidesToShow</span>: <span class="hljs-number">3</span>,
   <span class="hljs-attr">slidesToScroll</span>: <span class="hljs-number">3</span>
 });
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.multiple-items'</span>).slick({
     <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
@@ -48,7 +239,9 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
     <span class="hljs-attr">slidesToScroll</span>: <span class="hljs-number">3</span>
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"multiple-items"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"multiple-items"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
@@ -58,7 +251,9 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>9<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -71,7 +266,19 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
   <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
   <span class="hljs-attribute">text-align</span>: center;
   <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e0e0e0</span>;
-}</code></pre><br><h2 id="responsive-display">レスポンシブ</h2><div class="responsive"><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p></div><pre><code>$(<span class="hljs-string">'.responsive'</span>).slick({
+}</code></pre><br>
+              <h2 id="responsive-display">レスポンシブ</h2>
+              <div class="responsive">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+                <p>7</p>
+                <p>8</p>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.responsive'</span>).slick({
   <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">infinite</span>: <span class="hljs-literal">false</span>,
   <span class="hljs-attr">speed</span>: <span class="hljs-number">300</span>,
@@ -105,7 +312,10 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
     <span class="hljs-comment">// オブジェクトの代わりに settings: "unslick" を指定します。</span>
   ]
 });
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.responsive'</span>).slick({
     <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-attr">infinite</span>: <span class="hljs-literal">false</span>,
@@ -135,7 +345,9 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
     }]
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"responsive"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"responsive"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
@@ -144,7 +356,9 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>7<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>8<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -157,7 +371,17 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
   <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
   <span class="hljs-attribute">text-align</span>: center;
   <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e0e0e0</span>;
-}</code></pre><br><h2 id="variable-width">可変幅</h2><div class="variable-width"><p style="width:200px">200</p><p style="width:175px">175</p><p style="width:150px">150</p><p style="width:300px">300</p><p style="width:225px">225</p><p style="width:125px">125</p></div><pre><code>$(<span class="hljs-string">'.variable-width'</span>).slick({
+}</code></pre><br>
+              <h2 id="variable-width">可変幅</h2>
+              <div class="variable-width">
+                <p style="width:200px">200</p>
+                <p style="width:175px">175</p>
+                <p style="width:150px">150</p>
+                <p style="width:300px">300</p>
+                <p style="width:225px">225</p>
+                <p style="width:125px">125</p>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.variable-width'</span>).slick({
   <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">speed</span>: <span class="hljs-number">300</span>,
@@ -165,7 +389,10 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
   <span class="hljs-attr">centerMode</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">variableWidth</span>: <span class="hljs-literal">true</span>
 });
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.variable-width'</span>).slick({
     <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
@@ -175,14 +402,18 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
     <span class="hljs-attr">variableWidth</span>: <span class="hljs-literal">true</span>
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"variable-width"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"variable-width"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"width:200px"</span>&gt;</span>200<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"width:175px"</span>&gt;</span>175<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"width:150px"</span>&gt;</span>150<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"width:300px"</span>&gt;</span>300<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"width:225px"</span>&gt;</span>225<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"width:125px"</span>&gt;</span>125<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -195,14 +426,36 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
   <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
   <span class="hljs-attribute">text-align</span>: center;
   <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e0e0e0</span>;
-}</code></pre><br><h2 id="adaptive-height">可変高</h2><div class="adaptive-height"><div><p>1</p></div><div><p>2</p><div>Look ma!</div></div><div><p>3</p><div>Check<br>this out!</div></div><div><p>4</p><div>Woo!</div></div></div><pre><code>$(<span class="hljs-string">'.one-time'</span>).slick({
+}</code></pre><br>
+              <h2 id="adaptive-height">可変高</h2>
+              <div class="adaptive-height">
+                <div>
+                  <p>1</p>
+                </div>
+                <div>
+                  <p>2</p>
+                  <div>Look ma!</div>
+                </div>
+                <div>
+                  <p>3</p>
+                  <div>Check<br>this out!</div>
+                </div>
+                <div>
+                  <p>4</p>
+                  <div>Woo!</div>
+                </div>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.one-time'</span>).slick({
   <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">speed</span>: <span class="hljs-number">300</span>,
   <span class="hljs-attr">slidesToShow</span>: <span class="hljs-number">1</span>,
   <span class="hljs-attr">adaptiveHeight</span>: <span class="hljs-literal">true</span>
 });
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.adaptive-height'</span>).slick({
     <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
@@ -211,7 +464,9 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
     <span class="hljs-attr">adaptiveHeight</span>: <span class="hljs-literal">true</span>
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"adaptive-height"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"adaptive-height"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -228,7 +483,9 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>Woo!<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -246,8 +503,20 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
 <span class="hljs-selector-class">.adaptive-height</span> <span class="hljs-selector-tag">div</span> &gt; <span class="hljs-selector-tag">div</span> {
   <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">20px</span>;
   <span class="hljs-attribute">text-align</span>: center;
-}</code></pre><br><h2 id="data-attribute-settings">data属性による設定</h2><p><code>slick 1.5</code>では<code>data-slick</code>属性を使って設定を追加することができるようになりました。
-ただし、slickを初期化するために通常通り<code>$(element).slick()</code>を呼び出さなければなりません。</p><div class="data-attribute-settings" data-slick='{"slidesToShow":4,"slidesToScroll":4}'><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p></div><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">data-slick</span>=<span class="hljs-string">'{"slidesToShow": 4, "slidesToScroll": 4}'</span>&gt;</span>
+}</code></pre><br>
+              <h2 id="data-attribute-settings">data属性による設定</h2>
+              <p><code>slick 1.5</code>では<code>data-slick</code>属性を使って設定を追加することができるようになりました。
+                ただし、slickを初期化するために通常通り<code>$(element).slick()</code>を呼び出さなければなりません。
+              </p>
+              <div class="data-attribute-settings" data-slick='{"slidesToShow":4,"slidesToScroll":4}'>
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+              </div>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">data-slick</span>=<span class="hljs-string">'{"slidesToShow": 4, "slidesToScroll": 4}'</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -255,17 +524,24 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.data-attribute-settings'</span>).slick();
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"data-attribute-settings"</span> <span class="hljs-attr">data-slick</span>=<span class="hljs-string">'{"slidesToShow":4,"slidesToScroll":4}'</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"data-attribute-settings"</span> <span class="hljs-attr">data-slick</span>=<span class="hljs-string">'{"slidesToShow":4,"slidesToScroll":4}'</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -278,7 +554,17 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
   <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
   <span class="hljs-attribute">text-align</span>: center;
   <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e0e0e0</span>;
-}</code></pre><br><h2 id="center-mode">センターモード</h2><div class="center-mode"><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p></div><pre><code>$(<span class="hljs-string">'.center'</span>).slick({
+}</code></pre><br>
+              <h2 id="center-mode">センターモード</h2>
+              <div class="center-mode">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.center'</span>).slick({
   <span class="hljs-attr">centerMode</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">centerPadding</span>: <span class="hljs-string">'60px'</span>,
   <span class="hljs-attr">slidesToShow</span>: <span class="hljs-number">3</span>,
@@ -303,7 +589,10 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
     }
   ]
 });
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.center-mode'</span>).slick({
     <span class="hljs-attr">centerMode</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
@@ -329,14 +618,18 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
     }]
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"center-mode"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"center-mode"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -357,7 +650,15 @@ ga('create', 'UA-106478577-1', 'auto');</script></head><body><div id="container"
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#f50057</span>;
   <span class="hljs-attribute">opacity</span>: <span class="hljs-number">1</span>;
   <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">scale</span>(1.16);
-}</code></pre><br><h2 id="lazy-loading">遅延読み込み</h2><div class="lazy-loading"><div class="image"><img data-lazy="./img/1.jpg"></div><div class="image"><img data-lazy="./img/2.jpg"></div><div class="image"><img data-lazy="./img/3.jpg"></div><div class="image"><img data-lazy="./img/4.jpg"></div></div><pre><code><span class="hljs-comment">// 画像の遅延読み込みを使うには、</span>
+}</code></pre><br>
+              <h2 id="lazy-loading">遅延読み込み</h2>
+              <div class="lazy-loading">
+                <div class="image"><img data-lazy="./img/1.jpg"></div>
+                <div class="image"><img data-lazy="./img/2.jpg"></div>
+                <div class="image"><img data-lazy="./img/3.jpg"></div>
+                <div class="image"><img data-lazy="./img/4.jpg"></div>
+              </div>
+              <pre><code><span class="hljs-comment">// 画像の遅延読み込みを使うには、</span>
 <span class="hljs-comment">// imgタグにdata-lazy属性を設定し、src属性を削除します。</span>
 
 &lt;img data-lazy=<span class="hljs-string">"img/lazyfonz1.png"</span>/&gt;
@@ -367,7 +668,10 @@ $(<span class="hljs-string">'.lazy'</span>).slick({
   <span class="hljs-attr">slidesToShow</span>: <span class="hljs-number">3</span>,
   <span class="hljs-attr">slidesToScroll</span>: <span class="hljs-number">1</span>
 });
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.lazy-loading'</span>).slick({
     <span class="hljs-attr">lazyLoad</span>: <span class="hljs-string">'ondemand'</span>,
     <span class="hljs-attr">slidesToShow</span>: <span class="hljs-number">3</span>,
@@ -375,7 +679,9 @@ $(<span class="hljs-string">'.lazy'</span>).slick({
     <span class="hljs-attr">speed</span>: <span class="hljs-number">500</span>
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"lazy-loading"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"lazy-loading"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">data-lazy</span>=<span class="hljs-string">"./img/1.jpg"</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -388,19 +694,34 @@ $(<span class="hljs-string">'.lazy'</span>).slick({
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">data-lazy</span>=<span class="hljs-string">"./img/4.jpg"</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.lazy-loading</span> <span class="hljs-selector-tag">img</span> {
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.lazy-loading</span> <span class="hljs-selector-tag">img</span> {
   <span class="hljs-attribute">width</span>: <span class="hljs-number">240px</span>;
 }
 
 <span class="hljs-selector-class">.lazy-loading</span> <span class="hljs-selector-class">.image</span> {
   <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
-}</code></pre><br><h2 id="autoplay">自動再生</h2><div class="autoplay"><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p></div><pre><code>$(<span class="hljs-string">'.autoplay'</span>).slick({
+}</code></pre><br>
+              <h2 id="autoplay">自動再生</h2>
+              <div class="autoplay">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.autoplay'</span>).slick({
   <span class="hljs-attr">slidesToShow</span>: <span class="hljs-number">3</span>,
   <span class="hljs-attr">slidesToScroll</span>: <span class="hljs-number">1</span>,
   <span class="hljs-attr">autoplay</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">autoplaySpeed</span>: <span class="hljs-number">2000</span>,
 });
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.autoplay'</span>).slick({
     <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
@@ -411,14 +732,18 @@ $(<span class="hljs-string">'.lazy'</span>).slick({
     <span class="hljs-attr">autoplaySpeed</span>: <span class="hljs-number">2000</span>
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"autoplay"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"autoplay"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -431,14 +756,24 @@ $(<span class="hljs-string">'.lazy'</span>).slick({
   <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
   <span class="hljs-attribute">text-align</span>: center;
   <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e0e0e0</span>;
-}</code></pre><br><h2 id="fade">フェード</h2><div class="fade"><div class="image"><img data-lazy="./img/1.jpg"></div><div class="image"><img data-lazy="./img/2.jpg"></div><div class="image"><img data-lazy="./img/3.jpg"></div></div><pre><code>$(<span class="hljs-string">'.fade'</span>).slick({
+}</code></pre><br>
+              <h2 id="fade">フェード</h2>
+              <div class="fade">
+                <div class="image"><img data-lazy="./img/1.jpg"></div>
+                <div class="image"><img data-lazy="./img/2.jpg"></div>
+                <div class="image"><img data-lazy="./img/3.jpg"></div>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.fade'</span>).slick({
   <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">speed</span>: <span class="hljs-number">500</span>,
   <span class="hljs-attr">fade</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">cssEase</span>: <span class="hljs-string">'linear'</span>
 });
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.fade'</span>).slick({
     <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
@@ -448,7 +783,9 @@ $(<span class="hljs-string">'.lazy'</span>).slick({
     <span class="hljs-attr">cssEase</span>: <span class="hljs-string">'linear'</span>
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fade"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fade"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">data-lazy</span>=<span class="hljs-string">"./img/1.jpg"</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -458,13 +795,24 @@ $(<span class="hljs-string">'.lazy'</span>).slick({
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">data-lazy</span>=<span class="hljs-string">"./img/3.jpg"</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.fade</span> <span class="hljs-selector-class">.image</span> {
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.fade</span> <span class="hljs-selector-class">.image</span> {
   <span class="hljs-attribute">padding</span>: <span class="hljs-number">10px</span>;
 }
 
 <span class="hljs-selector-class">.fade</span> <span class="hljs-selector-tag">img</span> {
   <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
-}</code></pre><br><h2 id="add-and-remove">追加と削除</h2><div class="add-and-remove"><p>1</p></div><div class="buttons"><div class="button js-add-slide">Slide追加</div><div class="button js-remove-slide">Slide削除</div></div><pre><code>$(<span class="hljs-string">'.add-remove'</span>).slick({
+}</code></pre><br>
+              <h2 id="add-and-remove">追加と削除</h2>
+              <div class="add-and-remove">
+                <p>1</p>
+              </div>
+              <div class="buttons">
+                <div class="button js-add-slide">Slide追加</div>
+                <div class="button js-remove-slide">Slide削除</div>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.add-remove'</span>).slick({
   <span class="hljs-attr">slidesToShow</span>: <span class="hljs-number">3</span>,
   <span class="hljs-attr">slidesToScroll</span>: <span class="hljs-number">3</span>
 });
@@ -479,7 +827,10 @@ $(<span class="hljs-string">'.js-remove-slide'</span>).on(<span class="hljs-stri
     slideIndex--;
   }
 });
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.add-and-remove'</span>).slick({
     <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-attr">slidesToShow</span>: <span class="hljs-number">3</span>,
@@ -499,13 +850,17 @@ $(<span class="hljs-string">'.js-remove-slide'</span>).on(<span class="hljs-stri
     }
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"add-and-remove"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"add-and-remove"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"buttons"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"button js-add-slide"</span>&gt;</span>Slide追加<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"button js-remove-slide"</span>&gt;</span>Slide削除<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -540,7 +895,26 @@ $(<span class="hljs-string">'.js-remove-slide'</span>).on(<span class="hljs-stri
   <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#000</span>;
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#fff</span>;
   <span class="hljs-attribute">transition</span>: all <span class="hljs-number">300ms</span> ease;
-}</code></pre><br><h2 id="filtering">フィルタリング</h2><div class="filtering"><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p><p>7</p><p>8</p><p>9</p><p>10</p><p>11</p><p>12</p></div><div class="buttons"><div class="button js-filter">フィルタリング</div></div><pre><code>$(<span class="hljs-string">'.filtering'</span>).slick({
+}</code></pre><br>
+              <h2 id="filtering">フィルタリング</h2>
+              <div class="filtering">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+                <p>7</p>
+                <p>8</p>
+                <p>9</p>
+                <p>10</p>
+                <p>11</p>
+                <p>12</p>
+              </div>
+              <div class="buttons">
+                <div class="button js-filter">フィルタリング</div>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.filtering'</span>).slick({
   <span class="hljs-attr">slidesToShow</span>: <span class="hljs-number">4</span>,
   <span class="hljs-attr">slidesToScroll</span>: <span class="hljs-number">4</span>
 });
@@ -558,7 +932,10 @@ $(<span class="hljs-string">'.js-filter'</span>).on(<span class="hljs-string">'c
     filtered = <span class="hljs-literal">false</span>;
   }
 });
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.filtering'</span>).slick({
     <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-attr">speed</span>: <span class="hljs-number">500</span>,
@@ -578,7 +955,9 @@ $(<span class="hljs-string">'.js-filter'</span>).on(<span class="hljs-string">'c
     }
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"filtering"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"filtering"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
@@ -594,7 +973,9 @@ $(<span class="hljs-string">'.js-filter'</span>).on(<span class="hljs-string">'c
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"buttons"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"button js-filter"</span>&gt;</span>フィルタリング<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -629,7 +1010,26 @@ $(<span class="hljs-string">'.js-filter'</span>).on(<span class="hljs-string">'c
   <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#000</span>;
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#fff</span>;
   <span class="hljs-attribute">transition</span>: all <span class="hljs-number">300ms</span> ease;
-}</code></pre><br><h2 id="destroy">slickの削除</h2><p>本当に削除したいなら...</p><pre><code>$(<span class="hljs-string">'.your-slider'</span>).slick(<span class="hljs-string">'unslick'</span>);</code></pre><br><h2 id="slider-syncing">スライダの同期</h2><div class="slider-for"><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p></div><div class="slider-nav"><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p></div><pre><code>$(<span class="hljs-string">'.slider-for'</span>).slick({
+}</code></pre><br>
+              <h2 id="destroy">slickの削除</h2>
+              <p>本当に削除したいなら...</p>
+              <pre><code>$(<span class="hljs-string">'.your-slider'</span>).slick(<span class="hljs-string">'unslick'</span>);</code></pre><br>
+              <h2 id="slider-syncing">スライダの同期</h2>
+              <div class="slider-for">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+              </div>
+              <div class="slider-nav">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.slider-for'</span>).slick({
   <span class="hljs-attr">slidesToShow</span>: <span class="hljs-number">1</span>,
   <span class="hljs-attr">slidesToScroll</span>: <span class="hljs-number">1</span>,
   <span class="hljs-attr">arrows</span>: <span class="hljs-literal">false</span>,
@@ -644,7 +1044,10 @@ $(<span class="hljs-string">'.slider-nav'</span>).slick({
   <span class="hljs-attr">centerMode</span>: <span class="hljs-literal">true</span>,
   <span class="hljs-attr">focusOnSelect</span>: <span class="hljs-literal">true</span>
 });
-</code></pre><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+</code></pre>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.slider-for'</span>).slick({
     <span class="hljs-attr">slidesToShow</span>: <span class="hljs-number">1</span>,
     <span class="hljs-attr">slidesToScroll</span>: <span class="hljs-number">1</span>,
@@ -664,7 +1067,9 @@ $(<span class="hljs-string">'.slider-nav'</span>).slick({
     <span class="hljs-attr">slide</span>: <span class="hljs-string">'p'</span>
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"slider-for"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"slider-for"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
@@ -677,7 +1082,9 @@ $(<span class="hljs-string">'.slider-nav'</span>).slick({
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -691,9 +1098,23 @@ $(<span class="hljs-string">'.slider-nav'</span>).slick({
   <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
   <span class="hljs-attribute">text-align</span>: center;
   <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e0e0e0</span>;
-}</code></pre><br><h2 id="right-to-left">右から左へ</h2><div class="right-to-left" dir="rtl"><p>1</p><p>2</p><p>3</p><p>4</p><p>5</p><p>6</p></div><pre><code>$(<span class="hljs-string">'.single-item-rtl'</span>).slick({
+}</code></pre><br>
+              <h2 id="right-to-left">右から左へ</h2>
+              <div class="right-to-left" dir="rtl">
+                <p>1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>6</p>
+              </div>
+              <pre><code>$(<span class="hljs-string">'.single-item-rtl'</span>).slick({
   <span class="hljs-attr">rtl</span>: <span class="hljs-literal">true</span>
-});</code></pre><blockquote>* スライダのHTMLタグまたはその親要素は、<code>dir</code>属性に<code>rtl</code>を指定する必要があります。</blockquote><h4>実際のソース</h4><h5>JavaScript</h5><pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+});</code></pre>
+              <blockquote>* スライダのHTMLタグまたはその親要素は、<code>dir</code>属性に<code>rtl</code>を指定する必要があります。</blockquote>
+              <h4>実際のソース</h4>
+              <h5>JavaScript</h5>
+              <pre><code>$(<span class="hljs-built_in">document</span>).ready(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
   $(<span class="hljs-string">'.right-to-left'</span>).slick({
     <span class="hljs-attr">dots</span>: <span class="hljs-literal">true</span>,
     <span class="hljs-attr">infinite</span>: <span class="hljs-literal">true</span>,
@@ -703,14 +1124,18 @@ $(<span class="hljs-string">'.slider-nav'</span>).slick({
     <span class="hljs-attr">rtl</span>: <span class="hljs-literal">true</span>
   });
 });
-</code></pre><h5>HTML</h5><pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"right-to-left"</span> <span class="hljs-attr">dir</span>=<span class="hljs-string">"rtl"</span>&gt;</span>
+</code></pre>
+              <h5>HTML</h5>
+              <pre><code><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"right-to-left"</span> <span class="hljs-attr">dir</span>=<span class="hljs-string">"rtl"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>4<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>5<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>6<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><h5>CSS</h5><pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+              <h5>CSS</h5>
+              <pre><code><span class="hljs-selector-class">.slick-prev</span><span class="hljs-selector-pseudo">:before</span>,
 <span class="hljs-selector-class">.slick-next</span><span class="hljs-selector-pseudo">:before</span> {
   <span class="hljs-attribute">color</span>: <span class="hljs-number">#000</span> <span class="hljs-meta">!important</span>;
 }
@@ -723,88 +1148,88 @@ $(<span class="hljs-string">'.slider-nav'</span>).slick({
   <span class="hljs-attribute">margin</span>: <span class="hljs-number">10px</span>;
   <span class="hljs-attribute">text-align</span>: center;
   <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#e0e0e0</span>;
-}</code></pre><br><style>.slick-prev:before,
-.slick-next:before {
-  color: #000 !important;
-}
-
-.single-item p,
-.multiple-items p,
-.responsive p,
-.variable-width p,
-.adaptive-height p,
-.data-attribute-settings p,
-.center-mode p,
-.autoplay p,
-.add-and-remove p,
-.filtering p,
-.slider-for p,
-.slider-nav p,
-.right-to-left p
-{
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 100px;
-  color: #666;
-  margin: 10px;
-  text-align: center;
-  background-color: #e0e0e0;
-
-  text-shadow: none;
-}
-
-.adaptive-height div > div {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.center-mode p {
-  opacity: 0.4;
-  transition: all 300ms ease;
-}
-
-.center-mode p.slick-center {
-  color: #f50057;
-  opacity: 1;
-  transform: scale(1.16);
-}
-
-.lazy-loading img {
-  width: 240px;
-}
-
-.lazy-loading .image {
-  margin: 10px;
-}
-
-.fade .image {
-  padding: 10px;
-}
-
-.fade img {
-  width: 100%;
-}
-
-.buttons {
-  display: flex;
-  justify-content: center;
-}
-
-.buttons .button {
-  margin: 8px;
-  border: 1px solid #000;
-  color: #000;
-  padding: 8px;
-  text-align: center;
-  width: 8em;
-  transition: all 300ms ease;
-}
-
-.buttons .button:hover {
-  cursor: pointer;
-  background-color: #000;
-  color: #fff;
-  transition: all 300ms ease;
-}
-</style><br><div class="license"><p>&copy; 2017
- Ken Wheeler Licensed under the <a href="https://github.com/kenwheeler/slick/blob/master/LICENSE">MIT license</a></p><p>このコンテンツはKen Wheeler(kenwheeler)による<a href="http://kenwheeler.github.io/slick/">slickドキュメント</a>を翻訳/改変したものです。</p></div><span class="src" data-src="./js/examples.js" hidden></span></div></div></div></div><footer><span> &copy; <span id="copy_year">2017</span> tobijibu</span></footer></div><noscript id="deferred-styles"><link href="./css/lazy.css" rel="stylesheet"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"></noscript><script src="./js/main.js" defer></script><script src="//code.jquery.com/jquery-1.11.0.min.js"></script><script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script><script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script><div id="src" hidden></div></body></html>
+}</code></pre><br>
+              <style>
+                .single-item p,
+                .multiple-items p,
+                .responsive p,
+                .variable-width p,
+                .adaptive-height p,
+                .data-attribute-settings p,
+                .center-mode p,
+                .autoplay p,
+                .add-and-remove p,
+                .filtering p,
+                .slider-for p,
+                .slider-nav p,
+                .right-to-left p
+                {
+                  font-size: 2rem;
+                  font-weight: bold;
+                  line-height: 100px;
+                  color: #666;
+                  margin: 10px;
+                  text-align: center;
+                  background-color: #e0e0e0;
+                
+                  text-shadow: none;
+                }
+                
+                .adaptive-height div > div {
+                  margin-bottom: 20px;
+                  text-align: center;
+                }
+                
+                .center-mode p {
+                  opacity: 0.4;
+                  transition: all 300ms ease;
+                }
+                
+                .center-mode p.slick-center {
+                  color: #f50057;
+                  opacity: 1;
+                  transform: scale(1.16);
+                }
+                
+                .lazy-loading img {
+                  width: 240px;
+                }
+                
+                .lazy-loading .image {
+                  margin: 10px;
+                }
+                
+                .fade .image {
+                  padding: 10px;
+                }
+                
+                .fade img {
+                  width: 100%;
+                }
+                
+              </style><br>
+              <div class="license">
+                <p>
+                  &copy; 2017
+                   Ken Wheeler Licensed under the <a href="https://github.com/kenwheeler/slick/blob/master/LICENSE">MIT license</a>
+                </p>
+                <p>このコンテンツはKen Wheeler(kenwheeler)による<a href="http://kenwheeler.github.io/slick/">slickドキュメント</a>を翻訳/改変したものです。</p>
+              </div><span class="src" data-src="./js/examples.js" hidden></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer><span>&copy; <span id="copy_year">2017</span> tobijibu</span></footer>
+    </div>
+    <noscript id="deferred-styles">
+      <link href="./css/lazy.css" rel="stylesheet">
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    </noscript>
+    <script src="./js/main.js" defer></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <div id="src" hidden></div>
+  </body>
+</html>
